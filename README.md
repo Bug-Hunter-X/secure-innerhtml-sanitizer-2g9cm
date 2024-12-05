@@ -1,0 +1,1 @@
+This repository demonstrates a common yet easily overlooked security vulnerability in HTML: Cross-Site Scripting (XSS) via improper use of `innerHTML`.  The `bug.html` file shows the vulnerable code.  The `bugSolution.html` file provides a corrected version using `textContent` for safer data insertion.
