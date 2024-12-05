@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug Solution</title>
+</head>
+<body>
+  <div id="myDiv"></div>
+  <script>
+    // Correct use of textContent to prevent XSS
+    const userInput = prompt("Enter some text:");
+    document.getElementById("myDiv").textContent = userInput;
+  </script>
+</body>
+</html>
